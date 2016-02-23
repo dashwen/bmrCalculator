@@ -5,7 +5,7 @@
 Deshawn Dana
 dashwen@csu.fullerton.edu
 CPSC 411 Assignment 4
-version 1.0
+version 1.5
 Copyright © 2016 Deshawn Dana. All rights reserved.
 
 ==============================================================================================================
@@ -77,5 +77,5 @@ http://www.tutorialspoint.com/objective_c/
 http://www.stackoverflow.com
 
 http://cdn.pcwallart.com/images/gradient-wallpaper-1.jpg
-Dr. Shafae - singleton.m , simpleclass.m
+Michael Shafae source files, singleton.m , simpleclass.m
 

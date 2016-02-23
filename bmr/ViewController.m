@@ -146,7 +146,7 @@
 }
 
 - (IBAction)changeUnits:(id)sender {
-    //on switch = us metric
+    //us metric button selected
     if(self.unitsSwitch.on)
     {
         self.heightField.placeholder = @"ft";
@@ -160,9 +160,10 @@
         
         //enable inch field
         self.heightInchField.enabled = YES;
+        self.heightInchField.hidden = NO;
         
     }
-    else //off switch = world metric
+    else //world metric button selected
     {
         self.heightField.placeholder = @"cm";
         self.heightField.text = @"";
@@ -175,7 +176,7 @@
         
         //disable inch field
         self.heightInchField.enabled = NO;
-        self.heightInchField.textColor = [UIColor lightGrayColor];
+        self.heightInchField.hidden = YES;
     }
     
 }

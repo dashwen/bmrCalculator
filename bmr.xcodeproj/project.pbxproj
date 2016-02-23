@@ -14,6 +14,7 @@
 		E2070C0B1C751D9C0087D8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2070C0A1C751D9C0087D8E9 /* Assets.xcassets */; };
 		E2070C0E1C751D9C0087D8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2070C0C1C751D9C0087D8E9 /* LaunchScreen.storyboard */; };
 		E2070C1A1C75AA0E0087D8E9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E2070C191C75AA0E0087D8E9 /* Person.m */; };
+		E210D8C31C7C19960002AC98 /* minimal.png in Resources */ = {isa = PBXBuildFile; fileRef = E210D8C21C7C19960002AC98 /* minimal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E2070C0F1C751D9C0087D8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2070C181C75AA0E0087D8E9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		E2070C191C75AA0E0087D8E9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E210D8C21C7C19960002AC98 /* minimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimal.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		E2070BFD1C751D9C0087D8E9 /* bmr */ = {
 			isa = PBXGroup;
 			children = (
+				E210D8C21C7C19960002AC98 /* minimal.png */,
 				E2070C011C751D9C0087D8E9 /* AppDelegate.h */,
 				E2070C021C751D9C0087D8E9 /* AppDelegate.m */,
 				E2070C041C751D9C0087D8E9 /* ViewController.h */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2070C0E1C751D9C0087D8E9 /* LaunchScreen.storyboard in Resources */,
+				E210D8C31C7C19960002AC98 /* minimal.png in Resources */,
 				E2070C0B1C751D9C0087D8E9 /* Assets.xcassets in Resources */,
 				E2070C091C751D9C0087D8E9 /* Main.storyboard in Resources */,
 			);
@@ -306,6 +310,7 @@
 				E2070C141C751D9C0087D8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

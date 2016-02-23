@@ -158,6 +158,9 @@
         self.ageField.text = @"";
         self.resultsLabel.text = [NSString stringWithFormat:@""];
         
+        //enable inch field
+        self.heightInchField.enabled = YES;
+        
     }
     else //off switch = world metric
     {
@@ -165,10 +168,14 @@
         self.heightField.text = @"";
         self.weightField.placeholder = @"kg";
         self.weightField.text = @"";
-        self.heightInchField.placeholder = @"disabled";
+        self.heightInchField.placeholder = @"";
         self.heightInchField.text = @"";
         self.ageField.text = @"";
         self.resultsLabel.text = [NSString stringWithFormat:@""];
+        
+        //disable inch field
+        self.heightInchField.enabled = NO;
+        self.heightInchField.textColor = [UIColor lightGrayColor];
     }
     
 }

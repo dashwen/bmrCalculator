@@ -1,16 +1,15 @@
-==============================================================================================================
+
                                             BMR Calculator
-==============================================================================================================
+
 
 Deshawn Dana
 dashwen@csu.fullerton.edu
-CPSC 411 Assignment 4
 version 1.5
 Copyright © 2016 Deshawn Dana. All rights reserved.
 
-==============================================================================================================
+
                                         Required files to compile
-==============================================================================================================
+
 
 AppDelegate.h
 AppDelegate.m
@@ -23,9 +22,9 @@ info.plist
 Assets.xcassets (folder)
 Base.Iproj (folder)
 
-==============================================================================================================
+
                                          Instructions to compile
-==============================================================================================================
+
 
 You may use Xcode to compile
 1.) copy entire bmr folder and bmr.xcodeproj to desired directory
@@ -36,9 +35,9 @@ Optional: After build, if keyboard does not display during simulator
 4.) at top of screen, click Simulator -> Hardware -> Keyboard -> Connect Hardware Keyboard
     and make sure it is checked
 
-==============================================================================================================
+
                                                Test Data
-==============================================================================================================
+
 
 World Metric
 
@@ -56,9 +55,8 @@ Weight - 176lbs
 bmr = 1653.6
 
 
-==============================================================================================================
-                                               Comments / Bugs
-==============================================================================================================
+                                               Comments
+
 
 ** Note: If keyboard does not display properly on simulator, had to uncheck Connect Hardware Keyboard **
 ** see Instructions to compile to ensure proper setup **
@@ -69,9 +67,9 @@ bmr = 1653.6
 -No bugs to report
 
 
-==============================================================================================================
+
                                                 Credits
-==============================================================================================================
+
 
 http://www.tutorialspoint.com/objective_c/
 http://www.stackoverflow.com
